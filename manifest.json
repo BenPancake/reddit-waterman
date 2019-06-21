@@ -1,0 +1,14 @@
+{
+    "name": "Gettin Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "content_scripts": [
+        {
+        "matches": [
+          "<all_urls>"
+        ],
+        "css": ["water_css.css"]
+        }
+    ],
+    "manifest_version": 2
+  }
